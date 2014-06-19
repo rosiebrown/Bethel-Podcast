@@ -1,30 +1,32 @@
 @charset "UTF-8";
 /* CSS Document */
 
-}
-
 body {
-  width: 962px;
   color: gray;
   background-color: #f6f6f6;
 }
+
+div.container
+{
+  border:1px solid #C00;
+  width:960px;
+  padding:0;
+}
+
 .section-1 {
-  width: 962px;
   margin-right: 0px;
   margin-left: 0px;
-
 }
 
 h1 {
   color: #333333;
-  font-size: 32px;
-  margin-top: 40px;
-  margin-left:30px;
+  font-size: 2em;
+  margin: 40px 0px 0px 30px;
 }
 
 h2 {
   color: #666666;
-  font-size: 14px;
+  font-size: .88em;
   font-weight: bold;
   margin-left: 30px;
 }
@@ -51,10 +53,8 @@ p {
 
 .listen-now {
   color: #000000;
-  margin-left: 70px;
   font-size: 32px;
-  margin-top: 40px;
-  padding: 0px 0px;
+  margin: 40px 0px 0px 0px;
 }
 
 .listen-now h3 {
@@ -84,26 +84,29 @@ p {
 }
 
 .bethel-logo {
-  margin-left:70px;
-  margin-top:30px;
+  margin:30px 0px 0px 70px;
 }
 
 .subscribe {
   font-size: 20px;
   color: #666666;
-  margin-top: 30px;
+  margin: 30px 0px 0px 40px;
 }
 
 ul {
-  list-style: none;
   list-style-type: none;
 }
 
 li {
   float: left;
-  margin-right: 14px;
-  padding: ;
-  margin-bottom: 20px;
+  display: inline-block;
+  margin: 0px 0px 20px 40px;
+  vertical-align: top
+
+}
+
+li img {
+  margin-bottom: 0px;
 }
 
 .bill-large {
@@ -122,23 +125,23 @@ li {
 }
 
 .section-2 {
-  width: 962px;
-  margin-left:50px;
-  margin-right:50px;
+  margin: 0px 50px 0px 50px;
 }
 
 .recent-messages {
   color: #999999;
-  font-size: 32px;
+  font-size: 2em;
   padding: 20px 30px;
   margin-bottom: 10px;
+}
+.recent-messages h3 {
+  font-size: 1em;
 }
 
 .message-title {
   color: #333333;
-  margin-bottom: 40px;
-  margin-right: 50px;
-  margin-left:10px;
+  margin: 0px 50px 0px 10px;
+
 }
 
 .ibetheltv {
@@ -148,14 +151,14 @@ li {
 }
 
 .other-sites {
-  margin-left: 30px;
-  margin-right: 60px;
+  margin: 0px 60px 0px 30px;
 }
 
 .other-sites p {
   color: #fff;
   padding:0px 0px;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .message-time {
@@ -164,8 +167,8 @@ li {
 
 .bethel-store {
   background-color: #82a1be;
-  margin-right:0px;
-  margin-left:0px;
+  margin:0px 0px 0px 0px;
+;
 }
 
 .ibethel-org {
