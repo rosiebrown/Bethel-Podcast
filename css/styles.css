@@ -4,22 +4,29 @@
 }
 
 body {
-  width: 1024px;
+  width: 962px;
   color: gray;
   background-color: #f6f6f6;
 }
+.section-1 {
+  width: 962px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+}
 
 h1 {
-  color: #282828;
+  color: #333333;
   font-size: 32px;
-  padding: 20px 16px;
+  margin-top: 40px;
+  margin-left:30px;
 }
 
 h2 {
   color: #666666;
   font-size: 14px;
   font-weight: bold;
-  padding: 5px 16px;
+  margin-left: 30px;
 }
 
 h3 {
@@ -27,28 +34,49 @@ h3 {
   font-size: 32px;
 }
 
-
 p {
   color: #000000;
   font-size: 12px;
-  padding: 5px 15px
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.bill-large {
+  margin-left: 30px;
+}
+
+.bill-large p {
+  margin-left: 20px;
 }
 
 .listen-now {
   color: #000000;
-  padding: 22px 0px;
+  margin-left: 70px;
   font-size: 32px;
-
+  margin-top: 40px;
+  padding: 0px 0px;
 }
+
 .listen-now h3 {
   font-size: 32px;
   color: #666666;
 }
+.high-player {
+  margin-right: 30px;
+}
+
 .share {
   font-size:12px;
-  padding:10px 0px;
+  padding:20px 0px;
 }
-.share img{
+
+.share p {
+  margin-left: 0px;
+  color: #333333;
+  font-size: 12px;
+}
+
+.share img {
   border:1px;
   webkit-border-radius: 20px;
   moz-border-radius: 20px;
@@ -56,13 +84,26 @@ p {
 }
 
 .bethel-logo {
-  margin: 3%;
-  padding: 10px 0px;
+  margin-left:70px;
+  margin-top:30px;
 }
+
 .subscribe {
   font-size: 20px;
   color: #666666;
-  padding: 15px 0px;
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin-right: 14px;
+  padding: ;
+  margin-bottom: 20px;
 }
 
 .bill-large {
@@ -71,54 +112,75 @@ p {
   background: url("../images/bill-large3.jpg");
   background-repeat: no-repeat;
 }
+
 .high-player {
   padding: 0px 0px;
 }
+
 .low-player {
   padding: 0px 0px;
+}
+
+.section-2 {
+  width: 962px;
+  margin-left:50px;
+  margin-right:50px;
 }
 
 .recent-messages {
   color: #999999;
   font-size: 32px;
-  padding: 20px 20px
-}
-.message-title {
-  color: #333333;
-  padding: 0px 20px;
+  padding: 20px 30px;
+  margin-bottom: 10px;
 }
 
+.message-title {
+  color: #333333;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  margin-left:10px;
+}
 
 .ibetheltv {
   background-color:#9f83a8;
   padding: 0px 40px;
+
 }
 
+.other-sites {
+  margin-left: 30px;
+  margin-right: 60px;
+}
 
 .other-sites p {
   color: #fff;
-  padding: 0px 20px;
+  padding:0px 0px;
   font-size: 14px;
 }
 
+.message-time {
+  text-align:left;
+}
 
 .bethel-store {
   background-color: #82a1be;
-  padding: 20px, 20px;
-
+  margin-right:0px;
+  margin-left:0px;
 }
 
 .ibethel-org {
   background-color: #aaaaaa;
-  padding: 0px 30px;
+  padding: 0px 20px;
 }
-.ibetheltv h3 {
-  padding:0px 75px;
 
-}
 .bethel-store h3 {
-  padding: 0px 75px;
+  padding: 0px px;
 }
+
 .ibethel-org h3{
-  padding: 0px 75px;
+  padding: 0px px;
+}
+
+.need-help {
+  margin: 60px;
 }
