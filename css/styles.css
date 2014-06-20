@@ -27,7 +27,6 @@ h1 {
 h2 {
   color: #666666;
   font-size: .88em;
-  font-weight: bold;
   margin-left: 30px;
   margin-bottom: 20px;
 }
@@ -35,7 +34,7 @@ h2 {
 h3 {
   color: #666666;
   font-size: 32px;
-  font-family:
+  font-family: myriad pro
 }
 
 .bill-large p {
@@ -97,13 +96,13 @@ h3 {
 }
 
 .bethel-logo {
-  margin:30px 0px 0px 70px;
+  margin:30px 0px 30px 40px;
 }
 
 .subscribe {
   font-size: 20px;
   color: #666666;
-  margin: 30px 0px 0px 40px;
+  margin: 50px 0px 0px 100px;
 }
 
 ul {
@@ -113,10 +112,10 @@ ul {
 li {
   float: left;
   display: inline-block;
-  margin: 0px 0px 20px 40px;
+  margin: 0px 0px 20px 20px;
   vertical-align: top
-
 }
+
 
 li img {
   margin-bottom: 0px;
@@ -148,6 +147,8 @@ li img {
 }
 .recent-messages h3 {
   font-size: 1em;
+  margin-bottom: 30px;
+  font-family: myriad pro
 }
 
 .message-title {
@@ -157,12 +158,26 @@ li img {
 .bill p {
   margin-right: 30px;
 }
+.bill h5 {
+  margin-top: 40px;
+}
+.kris h5 {
+  margin-top: 40px;
+}
+.kris-kathy h5{
+  margin-top: 40px;
+}
+.bill2 h5 {
+  margin-top: 40px;
+}
+h4 {
+  font-size: 1.3em;
+}
 
 .ibethel-tv {
   background-color:#9f83a8;
-  padding: 0px 20px;
-  margin-right: 0px;
-  margin-top: 80px;
+  padding: 0px 30px;
+  margin: 80px 0px 0px 0px;
 }
 .ibethel-tv h3 {
   color: #654d6d;
@@ -170,12 +185,13 @@ li img {
   margin-left: 0px;
 }
 .other-sites {
-  margin: 0px 0px 0px 0px;
+  margin: 0px px 0px 0px;
+
 }
 
 .other-sites p {
   color: #fff;
-  padding:0px 0px;
+  padding: 10px 0px;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -190,11 +206,10 @@ li img {
   padding: 0px 20px;
 
 }
-
 .ibethel-org {
   background-color: #aaaaaa;
   padding: 0px 20px;
-  margin-top: 80px;
+  margin: 80px 0px 0px 0px;
 }
 .ibethel-org h3 {
   color: #5a5a5a;
@@ -212,7 +227,4 @@ li img {
 
 .need-help {
   margin: 60px;
-}
-
-
 }
