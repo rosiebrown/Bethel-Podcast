@@ -35,13 +35,14 @@ h2 {
 h3 {
   color: #666666;
   font-size: 32px;
+  font-family:
 }
 
-p {
+.bill-large p {
   color: #000000;
   font-size: 12px;
   padding: 10px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 .bill-large {
@@ -153,12 +154,21 @@ li img {
   color: #333333;
 }
 
-.ibetheltv {
-  background-color:#9f83a8;
-  padding: 0px 40px;
-
+.bill p {
+  margin-right: 30px;
 }
 
+.ibethel-tv {
+  background-color:#9f83a8;
+  padding: 0px 20px;
+  margin-right: 0px;
+  margin-top: 80px;
+}
+.ibethel-tv h3 {
+  color: #654d6d;
+  margin-right: 50px;
+  margin-left: 0px;
+}
 .other-sites {
   margin: 0px 0px 0px 0px;
 }
@@ -170,29 +180,39 @@ li img {
   text-transform: uppercase;
 }
 
-.message-time {
-  text-align:left;
+.message-time p {
+  text-align:;
 }
 
 .bethel-store {
   background-color: #82a1be;
-  margin:0px 0px 0px 0px;
-;
+  margin:80px 0px 0px 0px;
+  padding: 0px 20px;
+
 }
 
 .ibethel-org {
   background-color: #aaaaaa;
   padding: 0px 20px;
+  margin-top: 80px;
+}
+.ibethel-org h3 {
+  color: #5a5a5a;
+  margin-left: 0px;
 }
 
 .bethel-store h3 {
-  padding: 0px px;
+  color: #3d576f;
+  margin-left: 20px;
 }
 
 .ibethel-org h3{
-  padding: 0px px;
+  margin-left: 0px;
 }
 
 .need-help {
   margin: 60px;
+}
+
+
 }
