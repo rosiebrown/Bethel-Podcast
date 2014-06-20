@@ -23,6 +23,7 @@ h1 {
   font-size: 2em;
   margin: 30px 0px 0px 30px;
   font-family: myriad pro;
+  -webkit-font-smoothing: antialiased;
 }
 
 h2 {
@@ -39,6 +40,13 @@ h3 {
   font-family: myriad pro;
   margin-top: 20px;
   padding: 10px 0px;
+  -webkit-font-smoothing: antialiased
+}
+h4 {
+  -webkit-font-smoothing: antialiased;
+}
+h5 {
+  -webkit-font-smoothing: antialiased;
 }
 
 .bill-large p {
@@ -53,7 +61,12 @@ h3 {
 }
 
 .bill-large p {
-  margin: 0px 30px 0px 20px;
+  margin: 10px 30px 0px 20px;
+
+}
+.bill-large h2 {
+  margin-top: 20px;
+  font-weight: bold;
 
 }
 
@@ -112,7 +125,8 @@ li {
   float: left;
   display: inline-block;
   margin: 0px 0px 20px 20px;
-  vertical-align: top
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -185,6 +199,7 @@ h4 {
 }
 .ibethel-tv p {
   margin-bottom: 10px;
+
 }
 
 
@@ -194,6 +209,7 @@ h4 {
   font-size: 14px;
   text-transform: uppercase;
   text-align:center;
+  -webkit-font-smoothing: antialiased
 }
 
 .message-time p {
