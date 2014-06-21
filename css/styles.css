@@ -79,6 +79,7 @@ h5 {
 .listen-now h3 {
   font-size: 32px;
   color: #666666;
+  margin-bottom: 0px;
 }
 .listen-now img {
   margin-bottom:20px;
@@ -95,7 +96,7 @@ h5 {
 }
 
 .share p {
-  margin-left:0px 0px 0px 0px;
+  margin:0px 30px 0px 0px;
   color: #333333;
   font-size: 12px;
 }
