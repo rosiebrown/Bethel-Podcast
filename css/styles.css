@@ -74,7 +74,7 @@ h5 {
 
 .bill-large h2 {
   margin-top: 20px;
-  font-weight: bold;
+  font-weight: ;
   line-height: 25px;
 
 }
@@ -126,7 +126,7 @@ h5 {
 }
 
 .subscribe {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #666666;
   margin: 50px 0px 0px 100px;
 }
@@ -265,9 +265,11 @@ li img {
 }
 
 .line-separator{
-
 height:1px;
-background:#717171;
+background:;
 border-bottom:1px solid #cac9c9;
 
+}
+.verticalLine {
+    border-right: solid #666666;
 }
