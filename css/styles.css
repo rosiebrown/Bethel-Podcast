@@ -7,6 +7,7 @@ body {
 }
 
 div.container
+
 {
   border:1px solid #C00;
   width:960px;
@@ -31,7 +32,6 @@ h2 {
   font-size: .88em;
   margin: 0px 0px 20px 30px;
 
-
 }
 
 h3 {
@@ -42,9 +42,11 @@ h3 {
   padding: 10px 0px;
   -webkit-font-smoothing: antialiased
 }
+
 h4 {
   -webkit-font-smoothing: antialiased;
 }
+
 h5 {
   -webkit-font-smoothing: antialiased;
 }
@@ -64,6 +66,7 @@ h5 {
   margin: 10px 30px 0px 20px;
 
 }
+
 .bill-large h2 {
   margin-top: 20px;
   font-weight: bold;
@@ -81,15 +84,19 @@ h5 {
   color: #666666;
   margin-bottom: 0px;
 }
+
 .listen-now img {
   margin-bottom:20px;
 }
+
 .high-player {
   margin: 0px 20px 10px 0px;
 }
+
 .low-player {
   margin: 0px 60px 0px 0px;
 }
+
 .share {
   font-size:1em;
   padding:20px 0px;
@@ -130,7 +137,6 @@ li {
   -webkit-font-smoothing: antialiased;
 }
 
-
 li img {
   margin-bottom: 0px;
 }
@@ -159,6 +165,7 @@ li img {
   font-size: 2em;
   margin: 30px 0px 10px 0px;
 }
+
 .recent-messages h3 {
   font-size: 1em;
   margin-bottom: 30px;
@@ -172,18 +179,23 @@ li img {
 .bill p {
   margin-right: 30px;
 }
+
 .bill h5 {
   margin-top: 40px;
 }
+
 .kris h5 {
   margin-top: 40px;
 }
+
 .kris-kathy h5{
   margin-top: 40px;
 }
+
 .bill2 h5 {
   margin-top: 40px;
 }
+
 h4 {
   font-size: 1.3em;
 }
@@ -193,16 +205,17 @@ h4 {
   padding: 0px 20px;
   margin: 80px 0px 0px 0px;
 }
+
 .ibethel-tv h3 {
   color: #654d6d;
   margin: 0px 0px 0px 0px;
   text-align: center;
 }
+
 .ibethel-tv p {
   margin-bottom: 10px;
 
 }
-
 
 .other-sites p {
   color: #fff;
@@ -247,4 +260,14 @@ h4 {
 
 .need-help {
   margin: 60px;
+}
+
+.line-separator{
+
+height:1px;
+
+background:#717171;
+
+border-bottom:1px solid #cac9c9;
+
 }
