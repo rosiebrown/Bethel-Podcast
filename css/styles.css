@@ -123,7 +123,7 @@ h5 {
 }
 
 .bethel-logo {
-  margin:30px 0px 30px 40px;
+  margin:30px 0px 30px 50px;
 }
 
 .subscribe {
@@ -205,7 +205,7 @@ li img {
 
 .ibethel-tv {
   background-color:#9f83a8;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 10px;
   margin: 80px 0px 0px 0px;
 }
 
@@ -236,13 +236,13 @@ li img {
 .bethel-store {
   background-color: #82a1be;
   margin:80px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 10px 0px 0px;
   text-align: center;
 
 }
 .ibethel-org {
   background-color: #aaaaaa;
-  padding: 0px 30px;
+  padding: 0px 0px;
   margin: 80px 0px 0px 0px;
 }
 .ibethel-org h3 {
@@ -258,15 +258,18 @@ li img {
   margin-left: 20px;
 }
 
-.ibethel-org h3{
-  margin-left: 0px;
+
+.footer {
+  margin: 50px 0px 30px 0px;
+
 }
+
 
 .need-help {
-  margin: 60px;
+  float: right;
 }
 
-.line-separator{
+.line-separator {
   height:1px;
   border-bottom:1px solid #cac9c9;
   margin-bottom: opx;
@@ -274,5 +277,4 @@ li img {
 }
 .verticalLine {
   border-right: solid 1px #5a5a5a;
-
 }
