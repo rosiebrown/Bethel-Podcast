@@ -36,7 +36,7 @@ h2 {
 
 h3 {
   color: #666666;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: myriad pro;
   margin-top: 20px;
   padding: 10px 0px;
@@ -52,6 +52,7 @@ h4 {
 
 h5 {
   -webkit-font-smoothing: antialiased;
+  margin-top: 0px;
 }
 
 .bill-large p {
@@ -187,24 +188,24 @@ li img {
 }
 
 .bill h5 {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .kris h5 {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .kris-kathy h5{
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .bill2 h5 {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .ibethel-tv {
   background-color:#9f83a8;
-  padding: 0px 20px;
+  padding: 10px 20px;
   margin: 80px 0px 0px 0px;
 }
 
@@ -235,7 +236,7 @@ li img {
 .bethel-store {
   background-color: #82a1be;
   margin:80px 0px 0px 0px;
-  padding: 0px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: center;
 
 }
@@ -248,6 +249,7 @@ li img {
   color: #5a5a5a;
   margin-left: 30px;
   text-align: center;
+  text-size: 2.5em;
 
 }
 
@@ -265,11 +267,12 @@ li img {
 }
 
 .line-separator{
-height:1px;
-background:;
-border-bottom:1px solid #cac9c9;
+  height:1px;
+  border-bottom:1px solid #cac9c9;
+  margin-bottom: opx;
 
 }
 .verticalLine {
-    border-right: solid #666666;
+  border-right: solid 1px #5a5a5a;
+
 }
