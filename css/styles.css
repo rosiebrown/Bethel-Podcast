@@ -6,9 +6,7 @@ body {
   background-color: #f6f6f6;
 }
 
-div.container
-
-{
+div.container {
   border:1px solid #C00;
   width:960px;
   padding:0;
@@ -136,7 +134,7 @@ ul {
   list-style-type: none;
 }
 
-.navigation ul{
+li{
   float: left;
   display: inline-block;
   margin: 0px 0px 20px 20px;
@@ -252,7 +250,6 @@ li img {
   text-align: center;
   text-size: 2.5em;
 
-
 }
 
 .bethel-store h3 {
@@ -260,10 +257,8 @@ li img {
   margin-left: 20px;
 }
 
-
 .footer {
   margin: 50px 0px 30px 0px;
-
 }
 
 .need-help {
