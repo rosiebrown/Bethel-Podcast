@@ -87,19 +87,47 @@ h5 {
 .listen-now h3 {
   font-size: .88em;
   color: #666666;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
-
-.listen-now img {
-  margin-bottom:20px;
+.player{
+  width: 158px;
+  height: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  overflow: hidden;
 }
-
+.outer-player {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  overflow: hidden;
+}
 .high-player {
-  margin: 0px 20px 10px 0px;
+  margin: 0px 10px 10px 0px;
+}
+.outer-high-player{
+  width: 158px;
+  height: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  overflow: hidden;
+
 }
 
 .low-player {
-  margin: 0px 60px 0px 0px;
+  margin: 10px 60px 0px 0px;
+
+}
+.outer-low-player{
+    width: 158px;
+    height: 40px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    overflow: hidden;
+
 }
 
 .share {
@@ -153,13 +181,6 @@ li img {
   background-repeat: no-repeat;
 }
 
-.high-player {
-  padding: 0px 0px;
-}
-
-.low-player {
-  padding: 0px 0px;
-}
 
 .section-2 {
   margin: 0px 50px 0px 50px;
@@ -200,6 +221,16 @@ li img {
 .bill2 h5 {
   margin-top: 30px;
 }
+.listen-button {
+  background-color: #dfdfdf;
+  padding: 9px 12px;
+  margin-right: 125px;
+  margin-top:;
+  font-family: myriad pro;
+  color:#666666;
+  font-size: .88em;
+  -webkit-font-smoothing: antialiased;
+}
 
 .ibethel-tv {
   background-color:#9f83a8;
@@ -215,7 +246,6 @@ li img {
 
 .ibethel-tv p {
   margin-bottom: 10px;
-
 }
 
 .other-sites p {
@@ -224,7 +254,7 @@ li img {
   font-size: .88em;
   text-transform: uppercase;
   text-align:center;
-  -webkit-font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased;
 }
 
 .message-time p {
@@ -272,5 +302,5 @@ li img {
 
 }
 .verticalLine {
-  border-right: solid 1px #5a5a5a;
+  border-right: solid 1px #999999;
 }
