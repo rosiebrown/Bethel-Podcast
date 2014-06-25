@@ -230,6 +230,22 @@ li img {
   color:#666666;
   font-size: .88em;
   -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+}
+.listen-button-pushed {
+  background-color: #ffffff;
+  padding: 9px 12px;
+  margin-right: 125px;
+  margin-top:;
+  font-family: myriad pro;
+  color:#666666;
+  font-size: .88em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
 }
 
 .ibethel-tv {
@@ -257,9 +273,6 @@ li img {
   -webkit-font-smoothing: antialiased;
 }
 
-.message-time p {
-  text-align:;
-}
 
 .bethel-store {
   background-color: #82a1be;
