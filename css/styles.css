@@ -64,6 +64,7 @@ h5 {
 
 .bill-large {
   margin-left: 0px;
+  padding: 0px 0px;
 }
 
 .bill-large p {
@@ -149,13 +150,13 @@ h5 {
 }
 
 .bethel-logo {
-  margin:30px 0px 30px 50px;
+  margin:30px 0px 10px 50px;
 }
 
 .subscribe {
-  font-size: 1.4em;
+
   color: #666666;
-  margin: 50px 0px 0px 100px;
+  margin: 30px 0px 0px 100px;
 }
 
 ul {
@@ -168,6 +169,7 @@ li{
   margin: 0px 0px 20px 20px;
   vertical-align: top;
   -webkit-font-smoothing: antialiased;
+  font-size: 1.4em;
 }
 
 li img {
@@ -179,6 +181,7 @@ li img {
   background-color:#9f83a8;
   background: url("../images/bill-large3.jpg");
   background-repeat: no-repeat;
+
 }
 
 
@@ -322,7 +325,20 @@ li img {
   padding:0px 5px;
 
 }
-.English {
-  margin-left:
+.change-language{
+  text-align: right;
+  margin-right: 80px;
+  text-size: .88em;
+  
+
+}
+.english{
+  text-size: .88em;
+  text-align: right;
+
+}
+.col-md-6{
+  padding
+}
 
 }
