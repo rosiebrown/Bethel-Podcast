@@ -277,7 +277,7 @@ li img {
 .bethel-store {
   background-color: #82a1be;
   margin:80px 0px 0px 0px;
-  padding: 0px 10px 0px 0px;
+  padding: 0px 0px 10px 0px;
   text-align: center;
 
 }
@@ -292,6 +292,7 @@ li img {
   margin-right:20px;
   text-align: center;
   text-size: 2.5em;
+
 
 }
 
@@ -316,4 +317,12 @@ li img {
 }
 .verticalLine {
   border-right: solid 1px #999999;
+}
+.col-md-4 {
+  padding:0px 5px;
+
+}
+.English {
+  margin-left:
+
 }
