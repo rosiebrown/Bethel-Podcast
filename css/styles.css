@@ -156,7 +156,7 @@ h5 {
 .subscribe {
 
   color: #666666;
-  margin: 30px 0px 0px 100px;
+  margin: 20px 0px 0px 80px;
 }
 
 ul {
@@ -174,6 +174,10 @@ li{
 
 li img {
   margin-bottom: 0px;
+}
+.subscribe-podcast {
+  margin-bottom:10px;
+  margin-top: 20px;
 }
 
 .bill-large {
@@ -318,7 +322,7 @@ li img {
   margin-bottom: opx;
 
 }
-.verticalLine {
+.vertical-line {
   border-right: solid 1px #999999;
 }
 .col-md-4 {
@@ -329,16 +333,32 @@ li img {
   text-align: right;
   margin-right: 80px;
   text-size: .88em;
-  
 
 }
-.english{
+.english {
   text-size: .88em;
-  text-align: right;
-
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #bcbbbb;
+  border-width: thin;
+  padding: 5px 40px;
+  font-family: myriad pro;
+  color:#666666;
+  font-size: .88em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
 }
-.col-md-6{
+.english p {
+  margin-left: 10px;
+}
+.col-md-6 {
   padding
 }
+.english-change-language{
+  padding: 0px 0px;
+  margin-bottom: 30px;
 
 }
