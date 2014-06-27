@@ -54,7 +54,6 @@ h5 {
 }
 
 .bill-large p {
-
   color: #000000;
   font-size: .88em;
   padding: 10px;
@@ -106,6 +105,20 @@ h5 {
 }
 .high-player {
   margin: 0px 10px 10px 0px;
+  color:#ffffff;
+  background-color: #5a5a5a;
+  width: 158px;
+  height: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  overflow: hidden;
+}
+.high-player h6{
+  margin-left:8px;
+  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased;
+
 }
 .outer-high-player{
   width: 158px;
@@ -119,6 +132,15 @@ h5 {
 
 .low-player {
   margin: 10px 60px 0px 0px;
+  margin: 0px 10px 10px 0px;
+  color:#ffffff;
+  background-color: #5a5a5a;
+  width: 158px;
+  height: 30px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  overflow: hidden;
 
 }
 .outer-low-player{
@@ -128,9 +150,12 @@ h5 {
     -moz-border-radius: 6px;
     -khtml-border-radius: 6px;
     overflow: hidden;
-
 }
-
+.low-player h6{
+  margin-left:8px;
+  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased;
+}
 .share {
   font-size:1em;
   margin-bottom: 20px;
@@ -161,6 +186,7 @@ h5 {
 
 ul {
   list-style-type: none;
+
 }
 
 li{
@@ -175,9 +201,10 @@ li{
 li img {
   margin-bottom: 0px;
 }
-.subscribe-podcast {
-  margin-bottom:10px;
-  margin-top: 20px;
+.subscribe-podcast li{
+  margin-bottom:20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .bill-large {
@@ -334,11 +361,12 @@ li img {
   margin-right: 80px;
   text-size: .88em;
 
+
 }
 .english {
   text-size: .88em;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-style: solid;
   border-color: #bcbbbb;
   border-width: thin;
@@ -351,14 +379,17 @@ li img {
   -moz-border-radius: 5px;
   -khtml-border-radius: 5px;
 }
-.english p {
-  margin-left: 10px;
-}
+
+
 .col-md-6 {
   padding
 }
 .english-change-language{
   padding: 0px 0px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+
+}
+.english img{
 
 }
