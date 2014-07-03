@@ -143,14 +143,7 @@ h5 {
   overflow: hidden;
 
 }
-.outer-low-player{
-    width: 158px;
-    height: 40px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    overflow: hidden;
-}
+
 .low-player h6{
   margin-left:8px;
   margin-bottom: 10px;
@@ -358,7 +351,7 @@ li img {
 }
 .change-language{
   text-align: right;
-  margin-right: 80px;
+  margin-right: 50px;
   text-size: .88em;
 
 
@@ -387,7 +380,9 @@ li img {
 .english-change-language{
   padding: 0px 0px;
   margin-bottom: 40px;
-  margin-right: 20px;
+  margin-right: 0px;
+  
+
 
 }
 .english img{
